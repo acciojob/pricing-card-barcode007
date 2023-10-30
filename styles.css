@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+.container{
+	background-color:#c0c0c0;
+	width:500px;
+	margin-left:100px;
+	padding:20px;
+	box-shadow:10px 5px 10px grey;
+	
+}
+.container>h1{
+	text-align:center;
+}
+#images{
+	margin-left:130px;
+}
+.container>p{
+	text-align:center;
+	font-style:italic;
+}
+
+.container>button{
+	border-radius:5px;
+	border:none;
+	background-color:#f1807e;
+	width:100px;
+	height:50px;
+	font-size:20px;
+	font-weight:700;
+	margin-left:190px;
+	color:white;
+	
+}
+.container>button:hover{
+	background-color:pink;
+}
+
